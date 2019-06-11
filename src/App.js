@@ -17,8 +17,7 @@ class App extends React.Component {
 class Greating extends React.Component {
   render() {
     return(
-      <h1>Welcom to a Website
-      </h1>
+      <h1>Welcom to a Website</h1>
     )
   }
 }
