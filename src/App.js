@@ -3,7 +3,8 @@ import React from 'react';
 import './App.css';
 import Title from "./components/Title";
 import LightSwitch from './components/LightSwitch';
-import User from './components/User';
+//import User from './components/User';
+import UserBoard from './components/UserBoard'
 
 class App extends React.Component {
   render() {
@@ -20,10 +21,7 @@ class App extends React.Component {
           < LightSwitch />
           <br />
           <br />
-          < User name='Adrianus 0' />
-          < User name='Adrianus 1' />
-          < User name='Adrianus 2' />
-          < User name='Adrianus 3' />
+          < UserBoard />
           <br />
           <br />
         </main>
