@@ -5,3 +5,5 @@ export class Title extends Component {
     return 'test'
   }
 }
+
+export default Title

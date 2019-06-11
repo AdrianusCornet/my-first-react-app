@@ -1,6 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
+import { Title } from "./components/Title";
 
 class App extends React.Component {
   render() {
@@ -9,6 +10,10 @@ class App extends React.Component {
         <header className="App-header">
           < Greating />
         </header>
+
+        <main>
+          < Title />
+        </main>
       </div>
     );
   }
