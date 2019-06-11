@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import User from './User';
+import usersData from './data/users'
 
 
 export class UserBoard extends Component {
   render() {
+    let users = usersData.users
     return (
       <div>
         <h3>User Board</h3>
-        < User name='Adrianus 0' />
-        < User name='Adrianus 1' />
-        < User name='Adrianus 2' />
-        < User name='Adrianus 3' />
+        {users.map(user => {
+          return < User name={user.name}/>
+        })}
       </div>
     )
   }
