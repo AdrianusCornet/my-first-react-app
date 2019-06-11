@@ -1,7 +1,8 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import { Title } from "./components/Title";
+import Title from "./components/Title";
+import LightSwitch from './components/LightSwitch';
 
 class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
 
         <main>
           < Title content='Ik ben een titel' />
+          < LightSwitch />
         </main>
       </div>
     );
