@@ -8,13 +8,6 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           < Greating />
-          {'im a stirn'}
-          {/* im a commant */}
-          { 5 + 5 }
-          < br/>
-          { !true }
-          { {test:'test'}.test}
-          < Greating />
         </header>
       </div>
     );
@@ -24,7 +17,8 @@ class App extends React.Component {
 class Greating extends React.Component {
   render() {
     return(
-      <h1>Hallo</h1>
+      <h1>Welcom to a Website
+      </h1>
     )
   }
 }
