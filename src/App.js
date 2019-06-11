@@ -12,7 +12,7 @@ class App extends React.Component {
         </header>
 
         <main>
-          < Title />
+          < Title content='Ik ben een titel' />
         </main>
       </div>
     );
