@@ -13,8 +13,15 @@ class App extends React.Component {
         </header>
 
         <main>
+          <br />
+          <br />
           < Title content='Ik ben een titel' />
           < LightSwitch />
+          <br />
+          <br />
+
+          <br />
+          <br />
         </main>
       </div>
     );
@@ -23,7 +30,7 @@ class App extends React.Component {
 
 class Greating extends React.Component {
   render() {
-    return(
+    return (
       <h1>Welcom to a Website</h1>
     )
   }
